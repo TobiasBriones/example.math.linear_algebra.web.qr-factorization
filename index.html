@@ -1,0 +1,83 @@
+<html>
+    
+    <head>
+        
+        <title>Factorización QR</title>
+        <link href="https://fonts.googleapis.com/css?family=Quantico" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <meta charset="utf-8">
+        
+    </head>
+    
+    <body>
+        
+        <header>
+            <nav>
+                <h1>
+                    ALN - Factorización QR de una matriz
+                </h1>
+            </nav>
+        </header>
+        
+        <div id="container">
+            
+            <div class="input-pane">
+                
+                <div>
+                    <span>Ingresa la matriz a factorizar mediante el algoritmo QR</span>
+                </div>
+                
+                <div class="matrix">
+                    <div>
+                        <div>1</div>
+                        <div>1</div>
+                        <div>0</div>
+                    </div>
+                    <div>
+                        <div>1</div>
+                        <div>0</div>
+                        <div>1</div>
+                    </div>
+                    <div>
+                        <div>0</div>
+                        <div>1</div>
+                        <div>1</div>
+                    </div>
+                </div>
+                <div class="matrix-size">
+                    <div>
+                        <div>
+                            <span>Tamaño:</span>
+                            <input id="rows" type="number" value="3">
+                        </div>
+                        <div>
+                            <span>Valores:</span>
+                            <input id="values" type="text" value="1,1,0,1,0,1,0,1,1">
+                        </div>
+                        <div>
+                            <button id="update">CALCULAR</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="results">
+                <div class="message"></div>
+                <div>Matriz Q</div>
+                <div id="qmatrix" class="matrix"></div>
+                <div>Matriz R</div>
+                <div id="rmatrix" class="matrix"></div>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <div>Tobias Briones</div>
+        </footer>
+        <script src="math.min.js"></script>
+        <script src="main.js"></script>
+        
+    </body>
+    
+</html>
