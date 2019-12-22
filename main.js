@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2019 Tobias Briones.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 
 const clear = () => {
     const msg = document.getElementsByClassName("message")[0];
@@ -7,7 +13,6 @@ const clear = () => {
     msg.innerHTML = "";
     qmatrix.innerHTML = "";
     rmatrix.innerHTML = "";
-    
 }
 
 const updateStyle = rows => {
@@ -18,7 +23,6 @@ const updateStyle = rows => {
         width: ${width};
     }`;
     document.head.appendChild(style);
-    
 }
 
 const setRow = (rowEl, value) => {
@@ -26,7 +30,6 @@ const setRow = (rowEl, value) => {
     
     itemEl.innerHTML = value;
     rowEl.appendChild(itemEl);
-    
 }
 
 const addRow = matrix => {
@@ -34,7 +37,6 @@ const addRow = matrix => {
     
     matrix.appendChild(row);
     return row;
-    
 }
 
 const updateMatrix = (n, str, factorizator) => {
@@ -47,7 +49,6 @@ const updateMatrix = (n, str, factorizator) => {
     if(items.length != n * n) {
         alert(`${items.length} elementos dados, ${n*n} requeridos`);
         return;
-        
     }
     input.innerHTML = "";
     var row = addRow(input);
@@ -57,11 +58,9 @@ const updateMatrix = (n, str, factorizator) => {
         if(isNaN(element)) {
             alert(`El elemento ${element} no es un número`);
             return false;
-            
         }
         if(!rows[j]) {
             rows[j] = [];
-            
         }
         rows[j].push(element);
         setRow(row, element);
@@ -73,14 +72,10 @@ const updateMatrix = (n, str, factorizator) => {
             
             if(j < n) {
                 row = addRow(input);
-                
             }
-            
         }
-        
     });
     factorizator.matrix = math.matrix(rows);
-    
 }
 
 class QRFactorization {
@@ -89,7 +84,6 @@ class QRFactorization {
     constructor(msgEl) {
         this.matrix = math.matrix([[1,2,3], [4,5,6], [7,8,90]]);
         this.msgEl = msgEl;
-        
     }
     
     update(qmatrixData, rmatrixData, n) {
@@ -103,7 +97,6 @@ class QRFactorization {
             data.forEach(element => {
                 if(element.toString().length > 5 && (Math.floor(element) != element)) {
                     element = Math.floor(element * 1000) / 1000;
-                    
                 }
                 const item = document.createElement("div");
                 
@@ -117,17 +110,12 @@ class QRFactorization {
                     
                     if(j < n) {
                         row = addRow(matrix);
-                        
                     }
-                    
                 }
-                
             });
-            
         }
         fillMatrix(qmatrix, qmatrixData);
         fillMatrix(rmatrix, rmatrixData);
-        
     }
     
     normalize(vector) {
@@ -136,17 +124,14 @@ class QRFactorization {
             
             vector.forEach(value => factor += Math.pow(value, 2));
             return Math.sqrt(factor);
-            
         }
         return math.divide(vector, norm());
-        
     }
     
     proj(v, u) {
         const vu = math.multiply(v, u);
         const uu = math.multiply(u, u);
         return math.dotMultiply(u, vu / uu);
-        
     }
     
     calcOrtogonal(vectors, ortogonals, k) {
@@ -157,10 +142,8 @@ class QRFactorization {
             const current = ortogonals[j];
             const term = this.proj(currentU, current);
             result = math.subtract(result, term);
-            
         }
         return result;
-        
     }
     
     getQMatrix() {
@@ -177,11 +160,9 @@ class QRFactorization {
             
             orthogonalVectors.push(currentU);
             result.push(this.normalize(currentU));
-            
         }
         const qMatrix = math.transpose(math.matrix(result));
         return qMatrix;
-        
     }
     
     getRMatrix(qMatrix) {
@@ -198,18 +179,13 @@ class QRFactorization {
             for(let j = 0; j < n; j++) {
                 if(j < i) {
                     rows[i].push(0);
-                    
                 }
                 else {
                     rows[i].push(math.multiply(qRow, vectors[j]));
-                    
                 }
-                
             }
-            
         }
         return math.matrix(rows);
-        
     }
     
     compute() {
@@ -221,16 +197,13 @@ class QRFactorization {
             this.msgEl.innerHTML = `Las columnas no son linealmente independientes
                                     (determinante ${det})`;
             return;
-            
         }
         const n = this.matrix._data.length;
         const qMatrix = this.getQMatrix();
         const rMatrix = this.getRMatrix(qMatrix);
         
         this.update(qMatrix, rMatrix, n);
-        console.log(math.multiply(qMatrix,rMatrix))
     }
-    
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -243,7 +216,6 @@ document.addEventListener("DOMContentLoaded", () => {
        
        updateMatrix(rows, str, factorizator);
        factorizator.compute();
-       
     });
     document.getElementById("update").click()
 });

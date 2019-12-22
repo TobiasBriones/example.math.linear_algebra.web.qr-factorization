@@ -1,17 +1,21 @@
+/*
+ * Copyright (c) 2019 Tobias Briones.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 * {
     font-family: 'Quantico', sans-serif;
     box-sizing: content-box;
-    
 }
 
 body {
     min-width: 480px;
-    
 }
 
 nav {
     padding: 1% 2%;
-    
 }
 
 footer > div {
@@ -19,12 +23,10 @@ footer > div {
     color: #737373;
     font-size: 12px;
     font-style: italic;
-    
 }
 
 #container {
     padding: 2% 15%;
-    
 }
 
 .input-pane {
@@ -32,18 +34,15 @@ footer > div {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-top: transparent;
     border-right: transparent;
-    
 }
 
 .matrix-size > div > div {
     margin: 8px 0px;
-    
 }
 
 .matrix-size span {
     display: inline-block;
     width: 120px;
-    
 }
 
 /* Rows */
@@ -51,7 +50,6 @@ footer > div {
     height: 36px;
     margin: 4px 0px;
     overflow-x: auto;
-    
 }
 
 /* Columns */
@@ -59,7 +57,6 @@ footer > div {
     display: inline-block;
     width: 30%;
     margin: 0px 4px;
-    
 }
 
 .matrix-size button {
@@ -68,22 +65,18 @@ footer > div {
     background: mediumslateblue;
     font-weight: bold;
     transition: all 200ms;
-    
 }
 
 .matrix-size button:hover {
     box-shadow: 2px 4px 8px #cacaca;
-    
 }
 
 .results {
     margin-top: 48px;
-    
 }
 
 .results .matrix {
     padding: 5px;
     margin: 0px 0px 48px 0px ;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    
 }
