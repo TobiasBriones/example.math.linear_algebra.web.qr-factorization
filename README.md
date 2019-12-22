@@ -1,7 +1,7 @@
 # Example Project - QR Factorization
 [![License](https://img.shields.io/github/license/TobiasBriones/example.math.linear_algebra.web.qr-factorization)](https://github.com/TobiasBriones/example.math.linear_algebra.web.qr-factorization/blob/master/LICENSE)
 
-Tool that creates the QR factorization for the given square matrix.
+Basic tool that creates the QR factorization for the given square matrix.
 
 ![screenshot](https://github.com/TobiasBriones/example.math.linear_algebra.web.qr-factorization/blob/master/_repo/assets/screenshot_1.png)
 
