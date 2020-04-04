@@ -3,7 +3,7 @@
 
 Basic tool that creates the QR factorization for the given square matrix.
 
-![screenshot](https://github.com/TobiasBriones/example.math.linear_algebra.web.qr-factorization/blob/master/_repo/assets/screenshot_1.png)
+[![Screenshot 1](https://raw.githubusercontent.com/TobiasBriones/images/master/example-projects/example.math.linear-algebra.web.qr-factorization/screenshot-1.png)](https://github.com/TobiasBriones/images/tree/master/example-projects)
 
 # License
 This software is licensed under the [MIT License](http://opensource.org/licenses/MIT).
