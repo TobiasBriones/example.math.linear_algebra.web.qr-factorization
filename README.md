@@ -15,4 +15,4 @@ This software is licensed under the [MIT License](https://github.com/TobiasBrion
 ***
 
 This project includes the following software:
-- math.js library which is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0). Copyright (C) 2013-2018 Jos de Jong <wjosdejong@gmail.com>.
+- math.js library which is licensed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0). Copyright (C) 2013-2020 Jos de Jong <wjosdejong@gmail.com>.
