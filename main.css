@@ -6,77 +6,77 @@
  */
 
 * {
-    font-family: 'Quantico', sans-serif;
-    box-sizing: content-box;
+  font-family: 'Quantico', sans-serif;
+  box-sizing: content-box;
 }
 
 body {
-    min-width: 480px;
+  min-width: 480px;
 }
 
 nav {
-    padding: 1% 2%;
+  padding: 1% 2%;
 }
 
 footer > div {
-    padding: 8px 160px 16px 160px;
-    color: #737373;
-    font-size: 12px;
-    font-style: italic;
+  padding: 8px 160px 16px 160px;
+  color: #737373;
+  font-size: 12px;
+  font-style: italic;
 }
 
 #container {
-    padding: 2% 15%;
+  padding: 2% 15%;
 }
 
 .input-pane {
-    padding: 24px 32px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-top: transparent;
-    border-right: transparent;
+  padding: 24px 32px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: transparent;
+  border-right: transparent;
 }
 
 .matrix-size > div > div {
-    margin: 8px 0px;
+  margin: 8px 0;
 }
 
 .matrix-size span {
-    display: inline-block;
-    width: 120px;
+  display: inline-block;
+  width: 120px;
 }
 
 /* Rows */
 .matrix > div {
-    height: 36px;
-    margin: 4px 0px;
-    overflow-x: auto;
+  height: 36px;
+  margin: 4px 0;
+  overflow-x: auto;
 }
 
 /* Columns */
 .matrix > div > div {
-    display: inline-block;
-    width: 30%;
-    margin: 0px 4px;
+  display: inline-block;
+  width: 30%;
+  margin: 0 4px;
 }
 
 .matrix-size button {
-    width: 240px;
-    border: none;
-    background: mediumslateblue;
-    font-weight: bold;
-    transition: all 200ms;
+  width: 240px;
+  border: none;
+  background: mediumslateblue;
+  font-weight: bold;
+  transition: all 200ms;
 }
 
 .matrix-size button:hover {
-    box-shadow: 2px 4px 8px #cacaca;
+  box-shadow: 2px 4px 8px #CACACA;
 }
 
 .results {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 
 .results .matrix {
-    padding: 5px;
-    margin: 0px 0px 48px 0px ;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  margin: 0 0 48px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
