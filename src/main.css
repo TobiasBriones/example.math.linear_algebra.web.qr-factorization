@@ -6,8 +6,8 @@
  */
 
 * {
-  font-family: 'Quantico', sans-serif;
   box-sizing: content-box;
+  font-family: 'Quantico', sans-serif;
 }
 
 body {
@@ -20,9 +20,9 @@ nav {
 
 footer > div {
   padding: 8px 160px 16px 160px;
-  color: #737373;
   font-size: 12px;
   font-style: italic;
+  color: #737373;
 }
 
 #container {
@@ -61,9 +61,9 @@ footer > div {
 
 .matrix-size button {
   width: 240px;
-  border: none;
-  background: mediumslateblue;
   font-weight: bold;
+  background: mediumslateblue;
+  border: none;
   transition: all 200ms;
 }
 
