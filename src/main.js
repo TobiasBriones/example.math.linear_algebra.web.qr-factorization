@@ -85,7 +85,6 @@ const updateMatrix = (n, str, factorizator) => {
 };
 
 class QRFactorization {
-
   constructor(msgEl) {
     this.matrix = math.matrix([[1, 2, 3], [4, 5, 6], [7, 8, 90]]);
     this.msgEl = msgEl;
