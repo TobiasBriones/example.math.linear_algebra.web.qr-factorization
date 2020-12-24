@@ -38,5 +38,5 @@ This project includes the following software:
 
 - math.js library which is licensed under
   the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-  See [/libs/mathjs](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization/tree/master/libs/mathjs).
+  See [./libs/mathjs](./libs/mathjs).
   Copyright (C) 2013-2020 Jos de Jong <wjosdejong@gmail.com>.
