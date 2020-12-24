@@ -5,17 +5,30 @@
 
 [![Project GitHub License](https://img.shields.io/github/license/TobiasBriones/example.math.linear-algebra.web.qr-factorization.svg?style=flat-square)](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization/blob/main/LICENSE)
 
-Basic tool that creates the QR factorization for the given square matrix.
+A basic tool that creates the QR factorization for the given square matrix.
 
 ## Screenshots
 
 [![Screenshot 1](https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/example.math.linear-algebra.web.qr-factorization/screenshot-1.png)](https://github.com/TobiasBriones/images/tree/main/example-projects)
 
-## License
+## Contact
 
-Example Project: QR Factorization
+This software: [App](https://tobiasbriones.github.io/example.math.linear-algebra.web.qr-factorization),
+[GitHub Repository](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization)
+
+Tobias Briones: [GitHub](https://github.com/TobiasBriones)
+
+Example Project: [App](https://tobiasbriones.github.io/example-project)
+
+## About
+
+**Example Project: QR Factorization**
+
+A basic tool that creates the QR factorization for the given square matrix.
 
 Copyright © 2019 Tobias Briones. All rights reserved.
+
+### License
 
 This software is licensed under the [MIT License](./LICENSE).
 
