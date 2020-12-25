@@ -1,6 +1,7 @@
 # Example Project: QR Factorization
 
 [![EP](https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/example.math.linear-algebra.web.qr-factorization/ep-qr-factorization-badge.svg)](https://tobiasbriones.github.io/example-project/ep/qr-factorization)
+&nbsp;
 [![GitHub Repository](https://raw.githubusercontent.com/TobiasBriones/general-images/main/example-projects/badges/ep-gh-repo-badge.svg)](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization)
 
 [![Project GitHub License](https://img.shields.io/github/license/TobiasBriones/example.math.linear-algebra.web.qr-factorization.svg?style=flat-square)](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization/blob/main/LICENSE)
