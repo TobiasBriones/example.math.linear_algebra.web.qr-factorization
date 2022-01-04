@@ -38,6 +38,6 @@ This project is licensed under the [MIT License](./LICENSE).
 This project contains the following software:
 
 - math.js library which is licensed under
-  the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
+  the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
   See [./src/libs/mathjs](./src/libs/mathjs). Copyright (C) 2013-2020 Jos de
   Jong <wjosdejong@gmail.com>.
