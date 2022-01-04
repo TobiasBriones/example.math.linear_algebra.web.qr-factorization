@@ -9,14 +9,13 @@
 Example project for a basic tool that creates the QR factorization for the given
 square matrix.
 
+Go to: [App](https://qr-factorization.ep.dev.mathsoftware.engineer)
+
 ## Screenshots
 
 ![Screenshot 1](https://github.com/tobiasbriones/ep-qr-factorization/releases/download/v1.0.0/screenshot-1.png)
 
 ## Contact
-
-This project: [App](https://qr-factorization.ep.dev.mathsoftware.engineer),
-[GitHub Repository](https://github.com/tobiasbriones/ep-qr-factorization)
 
 Tobias Briones: [GitHub](https://github.com/tobiasbriones)
 
