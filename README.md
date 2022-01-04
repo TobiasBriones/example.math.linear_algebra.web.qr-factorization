@@ -31,11 +31,11 @@ Copyright © 2019 Tobias Briones. All rights reserved.
 
 ### License
 
-This software is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-This project includes the following software:
+This project contains the following software:
 
 - math.js library which is licensed under
   the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
