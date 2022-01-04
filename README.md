@@ -6,7 +6,8 @@
 
 [![GitHub Project License](https://img.shields.io/github/license/tobiasbriones/ep-qr-factorization.svg?style=flat-square)](https://github.com/tobiasbriones/ep-qr-factorization/blob/main/LICENSE)
 
-Example project for a basic tool that creates the QR factorization for the given square matrix.
+Example project for a basic tool that creates the QR factorization for the given
+square matrix.
 
 ## Screenshots
 
@@ -23,7 +24,8 @@ Tobias Briones: [GitHub](https://github.com/tobiasbriones)
 
 **Example Project: QR Factorization**
 
-Example project for a basic tool that creates the QR factorization for the given square matrix.
+Example project for a basic tool that creates the QR factorization for the given
+square matrix.
 
 Copyright © 2019 Tobias Briones. All rights reserved.
 
@@ -37,5 +39,5 @@ This project includes the following software:
 
 - math.js library which is licensed under
   the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-  See [./src/libs/mathjs](./src/libs/mathjs).
-  Copyright (C) 2013-2020 Jos de Jong <wjosdejong@gmail.com>.
+  See [./src/libs/mathjs](./src/libs/mathjs). Copyright (C) 2013-2020 Jos de
+  Jong <wjosdejong@gmail.com>.
