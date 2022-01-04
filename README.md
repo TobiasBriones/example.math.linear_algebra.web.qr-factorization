@@ -1,25 +1,23 @@
 # Example Project: QR Factorization
 
-[![EP](https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/example.math.linear-algebra.web.qr-factorization/ep-qr-factorization-badge.svg)](https://tobiasbriones.github.io/example-project/ep/qr-factorization)
+[![Project](https://raw.githubusercontent.com/tobiasbriones/ep-qr-factorization/static/badge.svg)](https://dev.mathsoftware.engineer/ep-qr-factorization/)
 &nbsp;
-[![GitHub Repository](https://raw.githubusercontent.com/TobiasBriones/general-images/main/example-projects/badges/ep-gh-repo-badge.svg)](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization)
+[![GitHub Repository](https://raw.githubusercontent.com/tobiasbriones/static/main/gh-badge.svg)](https://github.com/tobiasbriones/ep-qr-factorization)
 
-[![Project GitHub License](https://img.shields.io/github/license/TobiasBriones/example.math.linear-algebra.web.qr-factorization.svg?style=flat-square)](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization/blob/main/LICENSE)
+[![GitHub Project License](https://img.shields.io/github/license/tobiasbriones/ep-qr-factorization.svg?style=flat-square)](https://github.com/tobiasbriones/ep-qr-factorization/blob/main/LICENSE)
 
 Example project for a basic tool that creates the QR factorization for the given square matrix.
 
 ## Screenshots
 
-[![Screenshot 1](https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/example.math.linear-algebra.web.qr-factorization/screenshot-1.png)](https://github.com/TobiasBriones/images/tree/main/example-projects)
+![Screenshot 1](https://github.com/tobiasbriones/ep-qr-factorization/releases/download/v1.0.0/screenshot-1.png)
 
 ## Contact
 
-This software: [App](https://tobiasbriones.github.io/example.math.linear-algebra.web.qr-factorization),
-[GitHub Repository](https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization)
+This project: [App](https://qr-factorization.ep.dev.mathsoftware.engineer),
+[GitHub Repository](https://github.com/tobiasbriones/ep-qr-factorization)
 
-Tobias Briones: [GitHub](https://github.com/TobiasBriones)
-
-Example Project: [App](https://tobiasbriones.github.io/example-project)
+Tobias Briones: [GitHub](https://github.com/tobiasbriones)
 
 ## About
 
@@ -39,5 +37,5 @@ This project includes the following software:
 
 - math.js library which is licensed under
   the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-  See [./libs/mathjs](./libs/mathjs).
+  See [./src/libs/mathjs](./src/libs/mathjs).
   Copyright (C) 2013-2020 Jos de Jong <wjosdejong@gmail.com>.
