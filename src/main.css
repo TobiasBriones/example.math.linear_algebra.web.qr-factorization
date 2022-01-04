@@ -66,14 +66,14 @@ footer > div {
 
 .matrix-size button {
   width: 240px;
-  font-weight: bold;
   background: mediumslateblue;
   border: none;
+  font-weight: bold;
   transition: all 200ms;
 }
 
 .matrix-size button:hover {
-  box-shadow: 2px 4px 8px #CACACA;
+  box-shadow: 2px 4px 8px #cacaca;
 }
 
 .results {

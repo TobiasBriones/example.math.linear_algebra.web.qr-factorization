@@ -214,12 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const msg = document.getElementsByClassName('message')[0];
   const factorization = new QRFactorization(msg);
 
-  document.getElementById('update').addEventListener('click', () => {
-    const rows = parseInt(document.getElementById('rows').value);
-    const str = document.getElementById('values').value;
+  document.getElementById('update')
+          .addEventListener('click', () => {
+            const rows = parseInt(document.getElementById('rows').value);
+            const str = document.getElementById('values').value;
 
-    updateMatrix(rows, str, factorization);
-    factorization.compute();
-  });
-  document.getElementById('update').click();
+            updateMatrix(rows, str, factorization);
+            factorization.compute();
+          });
+  document.getElementById('update')
+          .click();
 });

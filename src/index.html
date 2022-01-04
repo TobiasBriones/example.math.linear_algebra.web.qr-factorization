@@ -12,21 +12,25 @@
 
 <!DOCTYPE html>
 <html lang="es">
-
   <head>
-    <title>Factorización QR</title>
-    <link rel="icon"
-          type="image/png"
-          href="https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/ep/ep-favicon.png"
-          sizes="96x96">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
-    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
+
+    <title>Factorización QR</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://raw.githubusercontent.com/TobiasBriones/images/main/example-projects/ep/ep-favicon.png"
+      sizes="96x96"
+    >
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quantico"
+    >
+    <link rel="stylesheet" href="main.css">
   </head>
 
   <body>
-
     <header>
       <nav>
         <h1>
@@ -63,14 +67,15 @@
         <div class="matrix-size">
           <div>
             <div>
-              <span>Tamaño:</span>
-              <input id="rows" type="number" value="3">
+              <span>Tamaño:</span> <input id="rows" type="number" value="3">
               <label for="rows"></label>
             </div>
             <div>
-              <span>Valores:</span>
-              <input id="values" type="text" value="1,1,0,1,0,1,0,1,1">
-              <label for="values"></label>
+              <span>Valores:</span> <input
+              id="values"
+              type="text"
+              value="1,1,0,1,0,1,0,1,1"
+            > <label for="values"></label>
             </div>
             <div>
               <button id="update">CALCULAR</button>
@@ -94,18 +99,18 @@
       <p>This software uses the open source library:</p>
       <ul>
         <li>
-          math.js licensed under the Apache 2.0 license, check at <a href="https://github.com/josdejong/mathjs">https://github.com/josdejong/mathjs</a>
+          math.js licensed under the Apache 2.0 license, check at
+          <a href="https://github.com/josdejong/mathjs">https://github.com/josdejong/mathjs</a>
         </li>
       </ul>
       <div>© 2019 Tobias Briones - QR Factorization EP
         <a href="https://github.com/TobiasBriones/example.math.linear-algebra.web.qr-factorization">
-          GitHub
-        </a>
+          GitHub </a>
       </div>
     </footer>
+
     <script src="../libs/mathjs/math.min.js"></script>
     <script src="main.js"></script>
-
   </body>
 
 </html>
